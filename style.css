@@ -39,16 +39,16 @@
   font-size: 1.4em;
 }
 
-.textfield {
+.textfield_login {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   width: 100%;
-  gap: 20px;
+  gap: 10px;
 }
 
-.textfield > input {
+.textfield_login > input {
   width: 100%;
   border: none;
   border-radius: 5px;
@@ -62,13 +62,43 @@
   margin-top: 15px;
 }
 
-.btn {
+.textfield_register {
   display: flex;
-  justify-content: center;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.textfield_register > input {
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  padding: 15px;
+  background: white;
+  color: rgba(0, 0, 0, 0.753);
+  font-size: 12pt;
+  box-shadow: 0px 10px 40px #00000080;
+  outline: none;
+  box-sizing: border-box;
+  margin-top: 15px;
+}
+
+
+
+.links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
   width: 100%;
 }
+
+.links > a {
+  width: 100%;
+  text-align: start;
+}
+
 
 /* DESKTOP */
 
